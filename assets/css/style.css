@@ -44,7 +44,7 @@ h3 {
 
 header {
     background-color: white;
-    border-bottom: #f3735f 1px;
+    border-bottom: 5px #f3735f;
 }
 
 .text-bold {
@@ -81,8 +81,13 @@ header {
     height: 250px;
     margin-top: 40px;
     margin-right: 20px;
+    margin-left: 30px;
     border-radius: 10px;
     text-align: center;
+}
+
+#aligned img:not(:last-child) {
+    margin-right: 45px;
 }
 
 .marged {
@@ -97,4 +102,17 @@ footer {
     height: 200px;
     padding-top: 100px;
     text-align: center;
+}
+
+.marmiton {
+    background-color: white;
+    color: #f3735f;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #f3735f;
+}
+
+#logo {
+    margin: auto;
+    padding: 40px;
 }
